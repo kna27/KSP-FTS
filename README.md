@@ -6,8 +6,14 @@ When you abort a flight by pressing backspace in Kerbal Space Program, the entir
 
 **USAGE TIPS**
 
-- To toggle the mod on or off, press alt+a
-- By default whenever you open the game, the mod will be on
 - Incase you accidentally trigger an abort, a quicksave is made so you can just reload it
+- Your abort action group will still work with this mod
+
+**DEMOS**
+
+![Demo](demo/demo.gif)
+
+![Demo](demo/demo1.gif)
+
 
 Leave your feedback and comments, thank you!
