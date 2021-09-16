@@ -11,16 +11,16 @@ namespace ExplosionAbort
         {
             if (Input.GetKey(KeyCode.Backspace))
             {
-                    List<Part> parts = FlightGlobals.ActiveVessel.parts;
-                    QuickSaveLoad.QuickSave();
-                    if (FlightGlobals.ActiveVessel.altitude <= 1000 || parts.Count >= 150)
-                    {
-                        StartCoroutine(ExplodeParts(0.001f));
-                    }
-                    else
-                    {
-                        StartCoroutine(ExplodeParts(0.005f));
-                    }
+                List<Part> parts = FlightGlobals.ActiveVessel.parts;
+                QuickSaveLoad.QuickSave();
+                if (FlightGlobals.ActiveVessel.altitude <= 1000 || parts.Count >= 150)
+                {
+                    StartCoroutine(ExplodeParts(0.001f));
+                }
+                else
+                {
+                    StartCoroutine(ExplodeParts(0.005f));
+                }
 
             }
         }
