@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTS", "FTS\FTS.csproj", "{5BB04281-71E8-4102-9AF8-12FF6ED65316}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BB04281-71E8-4102-9AF8-12FF6ED65316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BB04281-71E8-4102-9AF8-12FF6ED65316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BB04281-71E8-4102-9AF8-12FF6ED65316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BB04281-71E8-4102-9AF8-12FF6ED65316}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FCE3596-21A9-4620-B454-9813E85120DF}
+	EndGlobalSection
+EndGlobal
